@@ -1,0 +1,114 @@
+body {
+    font-family: "Montserrat";
+    margin: 0;
+}
+
+ul.sidebar {
+    top: 0%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    background-image: url("img/loginBG.jpg");
+    background-size: cover;
+    font-size: 100%;
+}
+
+.sidebar a img {
+    width: 90%;
+    padding: 10% 5%;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-color: #cfcfcf80;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 5% 10%;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar li a.active {
+    color: #ff9933;
+    /* background-color: #990000; */
+}
+
+.sidebar li a:hover:not(.active) {
+    color: white;
+    background-color: #a42e28;
+    opacity: 0.5;
+}
+
+ul.navbar {
+    position: fixed;
+    list-style-type: none;
+    width: 85%;
+    height: 30px;
+    margin-left: 15%;
+    padding: 0;
+    /* overflow: hidden; */
+    border-bottom-color: #44444418;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    box-shadow: 5px 4px 5px #645858;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #757575;
+}
+
+.navbar li.last {
+    padding-right: 15px;
+    float: right;
+}
+
+.navbar li a:hover {
+    color: #444444;
+}
+
+.content {
+    margin-top: 0;
+    margin-left: 15%;
+}
+
+section {
+    color: red;
+    text-align: center;
+    padding: 25px;
+    margin-left: 15%;
+    border-bottom: solid;
+    border-bottom-color: #dddddd;
+    border-bottom-width: 1px;
+}
+
+p {
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.slideShow {
+    width: 228px;
+    height: 337px;
+    margin: 10px;
+    box-shadow: 3px 5px 10px #645858;
+}
+
+.slideShow:hover {
+    box-shadow: 5px 5px 5px #645858;
+}
+
+.slideShowContainer {
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 10px;
+}
